@@ -1,2 +1,13 @@
-2024/12/24	11:38:32 	 6f78590c-074b-4357-b550-aec505539247 	 / 	 GET
-2024/12/24	11:38:32 	 298ed27c-db79-495b-87ae-9ae1adfe9eff 	 /img/test.jpg 	 GET
+2024/12/31	09:35:29 	 6957b59d-f446-41b2-8681-1caa7a72456e 	 GET	undefined	/
+2024/12/31	09:35:59 	 d1e8094f-876c-4e99-8017-fa2e47ec3c46 	 GET	undefined	/
+2024/12/31	09:37:09 	 da430d8d-ebb5-4bc7-8d5b-aa070b62d125 	 GET	https://www.google.com	/
+2024/12/31	09:46:31 	 91f7b307-cbb2-4aad-b8a8-50237a4619b0 	 GET	undefined	/
+2024/12/31	09:46:32 	 c6a1cad2-4c24-4fb1-9aa8-a423ff6482f4 	 GET	undefined	/favicon.ico
+2024/12/31	09:47:15 	 cdbe026b-8f02-4173-9dd1-e6ef9ce75dca 	 GET	undefined	/
+2024/12/31	09:47:15 	 f4f55e71-b6fe-4ddd-ad58-c707427bd405 	 GET	undefined	/css/style.css
+2024/12/31	09:55:33 	 9e28db0b-15a1-45ec-868d-a51770cdd2ee 	 GET	undefined	/
+2024/12/31	09:56:29 	 7487d9da-1502-4866-b264-a16ed86c4aaa 	 GET	undefined	/
+2024/12/31	09:56:29 	 72b16474-b664-4646-9395-eba26694045e 	 GET	undefined	/css/style.css
+2024/12/31	09:57:41 	 f11a9e47-38a0-409a-bd54-eee51cd6d45b 	 GET	undefined	/j
+2024/12/31	10:02:46 	 4d7edf48-520f-4b02-bc52-0e2563de8d0a 	 GET	undefined	/j
+2024/12/31	10:02:48 	 b4efe4c9-3ce6-4dae-a90c-cfa03ec38c35 	 GET	undefined	/j
