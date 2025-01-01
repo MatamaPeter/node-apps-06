@@ -1,2 +1,4 @@
 2024/12/31	09:55:33 	 d85808d1-9ed5-4aef-8c9d-50a7c13fac70 	 Error: Not allowed by CORS
 2024/12/31	10:12:55 	 75f1997f-1fd3-4d42-945c-88794ea1e3a1 	 Error: ENOENT: no such file or directory, stat '/home/matama/Documents/my codes/node-apps-06/views/subdir/test.html'
+2025/01/01	17:29:34 	 a40abf9c-7212-4aff-b3ff-e946cac352cf 	 SyntaxError: Unexpected token ' in JSON at position 1
+2025/01/01	17:29:42 	 21cf24a7-ba56-4a46-ae5f-7e2c25e9516e 	 SyntaxError: Unexpected token ' in JSON at position 1
