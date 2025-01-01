@@ -11,3 +11,17 @@
 2024/12/31	09:57:41 	 f11a9e47-38a0-409a-bd54-eee51cd6d45b 	 GET	undefined	/j
 2024/12/31	10:02:46 	 4d7edf48-520f-4b02-bc52-0e2563de8d0a 	 GET	undefined	/j
 2024/12/31	10:02:48 	 b4efe4c9-3ce6-4dae-a90c-cfa03ec38c35 	 GET	undefined	/j
+2024/12/31	10:12:34 	 8c7ac76d-722b-4a2f-ac47-45a703211748 	 GET	undefined	/subdir
+2024/12/31	10:12:55 	 770908d6-caab-4d48-882e-4240bcaf36a3 	 GET	undefined	/subdir/test.html
+2024/12/31	10:13:46 	 ef815b08-db45-45d4-9f3c-282558c3040e 	 GET	undefined	/subdir/test.html
+2024/12/31	10:13:58 	 665b0a85-1965-442b-8059-e49062ef21b8 	 GET	undefined	/subdir/test.html
+2024/12/31	17:49:31 	 0af1c31a-d241-49c7-b7ba-e4a3a56cbd9c 	 GET	undefined	/
+2024/12/31	17:49:31 	 4c073097-0bd4-4dc6-8837-132e5457474c 	 GET	undefined	/css/style.css
+2024/12/31	17:49:31 	 ac463c12-c714-41ff-b522-91a0b2a55412 	 GET	undefined	/favicon.ico
+2024/12/31	17:49:41 	 b6977b4e-2c6e-4a14-82a9-b41b25a108bc 	 GET	undefined	/subdir
+2024/12/31	17:49:49 	 545bc0a6-c19e-4110-b6f8-26be08869b05 	 GET	undefined	/subdir/test
+2024/12/31	17:50:02 	 f510d9cc-5c5e-499d-bf23-2dd1aa00ef3f 	 GET	undefined	/subdir/tes
+2024/12/31	17:51:39 	 65fa99b3-0566-4d21-b9a8-811945fc50ea 	 GET	undefined	/subdir/tes
+2025/01/01	16:06:55 	 e5305bd5-e012-44c7-8ee9-7b4566181f9b 	 GET	undefined	/subdir/tes
+2025/01/01	16:07:33 	 80123daa-910b-41f7-a63d-6f8c05e0ca9c 	 GET	undefined	/index
+2025/01/01	16:07:33 	 dd2e019f-2b62-47e8-9bb0-b545efeed841 	 GET	undefined	/css/style.css

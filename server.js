@@ -30,24 +30,15 @@ app.use(cors(corsOptions));
 
 app.use(express.urlencoded({ extended: false }));
 
-//built-ini middleware for JSON
+//built-in middleware for JSON
 app.use(express.json());
 
 //serve static files e.g images and css files
-app.use(express.static(path.join(__dirname,'./public')));
+app.use(express.static(path.join(__dirname, './public')));
+app.use('/subdir',express.static(path.join(__dirname, './public')));
 
-app.get('^/$|/index(.html)?', (req, res) => {
-    res.sendFile(path.join(__dirname,'views', 'index.html'))
-})
-
-app.get('/new-page(.html)', (req, res) => {
-    res.sendFile(path.join(__dirname,'views', 'new-page.html'))
-})
-
-app.get('/old-page(.html)', (req, res) => {
-    res.redirect(301, './new-page.html')
-});
-
+app.use('/',require('./routes/root'))
+app.use('/subdir', require('./routes/subdir'));
 
 
 app.all('*', (req, res) => { // accepts reject
