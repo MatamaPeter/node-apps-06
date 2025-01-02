@@ -2,3 +2,4 @@
 2024/12/31	10:12:55 	 75f1997f-1fd3-4d42-945c-88794ea1e3a1 	 Error: ENOENT: no such file or directory, stat '/home/matama/Documents/my codes/node-apps-06/views/subdir/test.html'
 2025/01/01	17:29:34 	 a40abf9c-7212-4aff-b3ff-e946cac352cf 	 SyntaxError: Unexpected token ' in JSON at position 1
 2025/01/01	17:29:42 	 21cf24a7-ba56-4a46-ae5f-7e2c25e9516e 	 SyntaxError: Unexpected token ' in JSON at position 1
+2025/01/01	18:18:16 	 bae5c7c7-e0a3-44a8-8e1a-afa18bff6324 	 SyntaxError: Unexpected end of JSON input

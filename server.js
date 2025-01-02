@@ -2,32 +2,18 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cors = require('cors')
+const corsOptions =require('./config/corsOptions')
 const { logger, logEvents } = require('./middleware/logEvents')
 const errorHandler = require('./middleware/errorHandler')
 const PORT = process.env.PORT || 3500;
 
 //custom middleware logger
-
 app.use(logger); 
 
 //Cross Origin Resource Sharing
-const whiteList = ['https://www.google.com', 'https:127.0.0.1:5500', 'http://localhost:3500'];
-
-const corsOptions = {
-    origin: (origin, callback) => {
-        if (whiteList.indexOf(origin) !== -1 || !origin) {
-            callback(null,true)
-        } else {
-            callback(new Error('Not allowed by CORS'))
-        }
-    },
-    optionsSuccessStatus:200
-}
 app.use(cors(corsOptions));
 
 // built-in middleware to handle url encoded data(form data)
-// 'content-type:express.application/x-www-form-urlencoded'
-
 app.use(express.urlencoded({ extended: false }));
 
 //built-in middleware for JSON
@@ -35,11 +21,12 @@ app.use(express.json());
 
 //serve static files e.g images and css files
 app.use(express.static(path.join(__dirname, './public')));
-app.use('/subdir',express.static(path.join(__dirname, './public')));
 
 //routes
-app.use('/',require('./routes/root'))
-app.use('/subdir', require('./routes/subdir'));
+app.use('/', require('./routes/root'))
+app.use('/register', require('./routes/register'));
+app.use('/auth', require('./routes/auth'));
+
 app.use('/employees', require('./routes/api/employees'));
 
 
@@ -56,7 +43,6 @@ app.all('*', (req, res) => { // accepts reject
 })
 
 //route handlers
-
 app.use(errorHandler);
 
 app.listen(PORT,() => console.log(`server running on port ${PORT}`))
