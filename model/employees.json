@@ -1,12 +1,12 @@
 [
     {
        "id": 1,
-       "name": "Peter",
-       "profession": "Software"
+       "firstname": "Peter",
+       "lastname": "Software"
     },
         {
        "id": 2,
-       "name": "John",
-       "profession": "Engineer"
+       "firstame": "John",
+       "lastname": "Engineer"
     }
 ]

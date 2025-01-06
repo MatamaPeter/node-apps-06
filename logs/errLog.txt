@@ -12,3 +12,9 @@
 2025/01/04	11:05:59 	 5f4921fa-12ba-446d-8caf-38f9c219d0bb 	 SyntaxError: Unexpected token e in JSON at position 0
 2025/01/04	11:06:00 	 a01446d7-8189-4beb-a372-5111247e8ddb 	 SyntaxError: Unexpected token e in JSON at position 0
 2025/01/04	11:06:46 	 adea873b-9efe-423e-a789-29f593739504 	 SyntaxError: Unexpected token e in JSON at position 0
+2025/01/04	15:03:07 	 a6902442-7706-41cd-b7d7-27e55700e048 	 SyntaxError: Unexpected end of JSON input
+
+
+ACCESS_TOKEN_SECRET = 4ed02ca37d568f41d23b5d5d328ca04df2539931b1088cdb23eb98778ec6dc6de6925f810582cd0c0692bdd0521f3b528c92e6c5e4c1d824e1db5a1376586db3
+REFRESH_TOKEN_SECRET = a75558518388dd04fab179da681e8f4c733fec33a2409fa2c679e10acdeb095ab02d662fc459ac413451a5f908972fa1231ae12a6360737e3c798dd2135325af
+DATABASE_URI = mongodb+srv://mongotut:testing123@cluster0.zvdey.mongodb.net/CompanyDB?retryWrites=true&w=majority&appName=Cluster0
